@@ -1,17 +1,23 @@
-Doomsday Algorithm - Find Weekday of a Given Date
-This Dart program calculates the weekday for any given date using the Doomsday Algorithm.
+# 🗓️ Doomsday Algorithm - Find Weekday of a Given Date
 
-How to Run the Program
-Ensure you have Dart SDK installed on your system.
-Clone the repository or download the Dart file.
-Navigate to the folder containing the main.dart file.
-Run the program using the following command:
-bash
-คัดลอก
-แก้ไข
-dart main.dart
-Example Usage
-Here is an example of how the program works:
+A Dart program to calculate the weekday for any given date using the **Doomsday Algorithm**, developed by John Horton Conway.
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Install [Dart SDK](https://dart.dev/get-dart) on your system.
+
+### How to Run
+1. Clone the repository or download the `main.dart` file.
+2. Open a terminal and navigate to the folder containing `main.dart`.
+3. Run the program using:
+   ```bash
+   dart main.dart
+
+💡 Example Usage
+When you run the program, you'll be prompted to input the day, month, and year. Here's an example:
 
 plaintext
 คัดลอก
@@ -28,14 +34,18 @@ Enter Year :
 
 Input Date is 21 , Jan , 2025  
 Output => The weekday of the input date : Tuesday  
-Algorithm Overview
-The program leverages the Doomsday Algorithm, a method developed by John Horton Conway, to determine the weekday for any given date. It is highly efficient and involves the following steps:
 
-Calculate the "anchor day" for the given century.
-Determine the "doomsday" for the year.
-Compare the input date with the doomsday to find the weekday.
-Contributing
-Feel free to submit issues or make pull requests to enhance the program. Contributions are always welcome!
+🧠 Algorithm Overview
+The Doomsday Algorithm is a clever method for determining the weekday of any date. It involves:
 
-License
-This project is licensed under the MIT License.
+Calculating the "anchor day" for the century.
+Finding the "doomsday" for the year.
+Comparing the input date with the doomsday to identify the weekday.
+
+🤝 Contributing
+Contributions are welcome!
+If you'd like to improve this project, feel free to:
+
+Fork the repository.
+Make your changes.
+Submit a pull request.
