@@ -6,7 +6,7 @@ String doomsDayAlgorithm() {
   int month = Month.indexWhere((item) => item == inputMonth) + 1;
   int year = int.parse(inputYear!);
 
-  print('$day - $month - $year');
+  // print('$day - $month - $year');
 
   //Find the century's anchor day
   int century = year ~/ 100;

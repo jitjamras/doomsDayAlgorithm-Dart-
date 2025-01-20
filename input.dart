@@ -9,13 +9,15 @@ String? inputYear = stdin.readLineSync();
 Future<String> inputDate() async {
   try {
     print('Example Input : 1 Jan 1900');
+    print('Select Day => 1 - 31');
     print('Enter Day : ');
     inputDay;
     _checkInputDay();
-    print('Select Month : $Month');
+    print('Select Month => $Month');
     print('Enter Month : ');
     inputMonth;
     _checkInputMonth();
+    print('Select Year => Start 1900 (Christian year)');
     print('Enter Year : ');
     inputYear;
     _checkInputYear();
