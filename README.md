@@ -16,7 +16,7 @@ A Dart program to calculate the weekday for any given date using the **Doomsday 
    ```bash
    dart main.dart
 
-💡 Example Usage
+####💡 Example Usage
 When you run the program, you'll be prompted to input the day, month, and year. Here's an example:
 
 plaintext
@@ -35,17 +35,9 @@ Enter Year :
 Input Date is 21 , Jan , 2025  
 Output => The weekday of the input date : Tuesday  
 
-🧠 Algorithm Overview
+##### 🧠 Algorithm Overview
 The Doomsday Algorithm is a clever method for determining the weekday of any date. It involves:
 
 Calculating the "anchor day" for the century.
 Finding the "doomsday" for the year.
 Comparing the input date with the doomsday to identify the weekday.
-
-🤝 Contributing
-Contributions are welcome!
-If you'd like to improve this project, feel free to:
-
-Fork the repository.
-Make your changes.
-Submit a pull request.
